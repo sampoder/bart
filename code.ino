@@ -1,3 +1,7 @@
+/* 
+Structure is based on https://github.com/loopstick/ArduinoTutorial/blob/master/examples/06_RGB_LED/06a_RGB_Test/06a_RGB_Test.ino
+*/
+
 const int redLED_1 = 11;  
 const int greenLED_1 = 9;  
 const int blueLED_1 = 10;  
