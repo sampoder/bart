@@ -1,6 +1,6 @@
 # 🚇 BART sculpture 
 
-It lights up whenever a train is about to arrive at Downtown Berkeley (feel free to change the station in `main.py`[^1])! I built this for [DESINV 23](https://classes.berkeley.edu/content/2025-spring-desinv-23-1-lec-1).
+It lights up whenever a train is about to arrive at Downtown Berkeley (feel free to change the station in `main.py`[^1])! I built this for [DESINV 23](https://classes.berkeley.edu/content/2025-spring-desinv-23-1-lec-1), a class on creative programming & electronics at UC Berkeley.
 
 ![IMG_0076 2](https://github.com/user-attachments/assets/77100e8e-62af-4791-991e-9d8a15e23017)
 
