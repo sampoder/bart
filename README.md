@@ -2,7 +2,7 @@
 
 BART sculpture / light piece for DESINV 23.
 
-It lights up whenever a train is about to arrive at Downtown Berkeley (feel free to change the station in `main.py`)!
+It lights up whenever a train is about to arrive at Downtown Berkeley (feel free to change the station in `main.py`[^1])!
 
 ![IMG_0076 2](https://github.com/user-attachments/assets/77100e8e-62af-4791-991e-9d8a15e23017)
 
@@ -18,3 +18,4 @@ And then it makes a noise if the train leaves:
 
 https://github.com/user-attachments/assets/8d63fbfe-5397-4607-a32a-b0ea8b4b94a8
 
+[^1]: https://api.bart.gov/docs/stn/stns.aspx
