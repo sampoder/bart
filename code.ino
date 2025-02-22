@@ -11,8 +11,6 @@ const int greenLED_2 = 6;
 const int blueLED_2 = 5; 
 
 int delaytime = 100;
-
-int delaytime_2 = 1000;
  
 void setup(){
   pinMode(redLED_1, OUTPUT);
@@ -24,12 +22,15 @@ void setup(){
   Serial.begin(9600);
 }
 
+/* incoming is used as a state variable - we don't always get a new message from the Python script so this stores the latest message outside of the loop. */
+
 String incoming;
 
 void loop(){
+    /* if we have a new message, update incoming. */
     if (Serial.available() > 0) {
       String read = Serial.readString();
-      read.trim();
+      read.trim(); // very handy! often there's some whitespace afterwards.
       if(!read.equals("")) {
         incoming = read;
       }
@@ -63,6 +64,8 @@ void loop(){
       analogWrite(blueLED_2, 0);
       delay(delaytime);
     }
+    
+    /* this orange & yellow looked most similar to BART's. */
 
     if(incoming.equals("YELLOW")) {
       analogWrite(redLED_1, 255);
