@@ -50,12 +50,44 @@ So now I had the shell of it! Next step was wiring, here's what the circuit look
 
 <img width="600" alt="Screenshot 2025-02-21 at 6 46 00 PM" src="https://github.com/user-attachments/assets/236564f9-3857-4f54-9d41-047e129eee6a" />
 
-Just imagine if there was a purple BART line:
+Last thing to do was to program it! As I mentioned earlier I'm running a Python script on my laptop and communicating with Arduino using serial. I originally used the [Transit App's API](https://transitapp.com/apis) but it was probably overkill for this purpose. Though using this knowledge, I built this little menu bar app to help me keep track of transit nearby:
+
+<img width="401" alt="Screenshot 2025-02-21 at 6 52 58 PM" src="https://github.com/user-attachments/assets/6fa3454e-8984-4b03-8489-a8fe6f893d57" />
+
+But anyways! With it coded up, I now had a thing. Just imagine if there was a purple BART line:
 
 <img width="600px" alt="Screenshot 2025-02-14 at 12 00 52 AM" src="https://github.com/user-attachments/assets/337af8bd-26f2-4a38-8a45-2d2378e87b7d" />
 
 And here's the noise it makes if the train is leaving:
 
 https://github.com/user-attachments/assets/8d63fbfe-5397-4607-a32a-b0ea8b4b94a8
+
+## Reflection
+
+I had a lot of fun making this! I don't think I'd used a laser cutter since high school (sadly) and it was great to try out some new APIs I haven't used. Plus BART makes me happy so seeing this thing on my mantlepiece everyday makes me happy (I had to use the Arduino for more projects)!
+
+<img width="600px" alt="Screenshot 2025-02-21 at 7 01 02 PM" src="https://github.com/user-attachments/assets/0cdc0c37-27f0-40e3-a97f-7d44894fde3c" />
+
+This project started with me building something practical but over time it morphed. Not missing the train became less important and as I showed it people, it became clear to me that people enjoyed it because it reminded them of fond memories using BART. BART it critical for me and my peers - only a few of us have cars and the logistics of driving in the Bay Area is a nightmare. So we use BART for everything and anything, I think that's why this made people smile when I showed it to them. Plus anything that lights up is cool! Waiting for the train is also a universal experience, so in a way, this piece highlights the importance of funding BART so it can have more frequent schedules.
+
+If I was to do it again, there'd be a couple of things I'd change:
+
+* Designing joints for my laser cut pieces so I wouldn't have had to hot glue the piece together.
+* Modelling the train in CAD - this would have allowed me to properly create the diagonal shape of a BART train. Plus I want to improve my CAD skills so I can do more.
+* Using an ESP32. That would have allowed me to make API calls from my Arduino code directly and not have to run a seperate Python script.
+
+This project isn't going to waste. I'm using my electronics for future projects and keeping the structure as an ornament on my mantlepiece.
+
+At the end of the day, the most fun part of this project was showing it to friends. Thanks to everyone who said nice things about it and gave me good feedback!
+
+## Sources
+
+Thanks to these sources for helping me:
+
+Dr. Sudhu's Arduino Tutorial: https://github.com/loopstick/ArduinoTutorial
+
+BART's API documentation: https://api.bart.gov/docs/overview/index.aspx
+
+Taylor S. Marks' playsound module: https://github.com/TaylorSMarks/playsound
 
 [^1]: https://api.bart.gov/docs/stn/stns.aspx
