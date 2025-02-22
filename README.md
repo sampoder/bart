@@ -14,7 +14,7 @@ Here's what it looked like:
 
 <img width="600px" alt="Screenshot 2025-02-14 at 12 00 05 AM" src="https://github.com/user-attachments/assets/76a8ae04-1055-41f5-9798-839b90f75e83" />
 
-The finished piece is a replica BART train that was made out of laser cut / engraved acrylic. It has two RGB LEDs inside of it. When connected to a computer running the Python script, it lights up when a train is at the configured station. This data is pulled from [BART's legacy API](https://api.bart.gov/docs/overview/index.aspx). The Python script then commands the Arduino to light the train up a certain colour via Serial communication. The colour of the train is based on the BART line, for example trains to Berryesea from Downtown Berkeley are orange while trains to Milbrae / San Francisco are red.
+The finished piece is a replica BART train that was made out of laser cut / engraved acrylic. It has two RGB LEDs inside of it. When connected to a computer running the Python script, it lights up when a train is at the configured station. This data is pulled from [BART's legacy API](https://api.bart.gov/docs/overview/index.aspx). The Python script then commands the Arduino to light the train up a certain colour via Serial communication. The colour of the train is based on the BART line, for example trains to Berryessa from Downtown Berkeley are orange while trains to Millbrae / San Francisco are red.
 
 <img width="600px" alt="Screenshot 2025-02-14 at 12 00 15 AM" src="https://github.com/user-attachments/assets/22ee0e2e-b6b2-4929-9a2c-0b7c25c6c823" />
 
@@ -38,7 +38,7 @@ Here's my Figma setup:
 
 I then exported this as an SVG and set it up in Adobe Illustrator to be laser cut. I did this all at the [Jacobs Hall Makerspace](https://jacobsinstitute.berkeley.edu/making-at-jacobs/).
 
-The first laser cut had a slight problem, the engraving was too faint so it was hard to distingush the train design (I was engraving most of the arcylic and leaving the outline of train un-engraved):
+The first laser cut had a slight problem, the engraving was too faint so it was hard to distinguish the train design (I was engraving most of the acrylic and leaving the outline of train un-engraved):
 
 <img width="600" src="https://github.com/user-attachments/assets/841f2f24-9a86-47bc-8b55-f44e0a48e0d8" />
 
@@ -74,7 +74,7 @@ If I was to do it again, there'd be a couple of things I'd change:
 
 * Designing joints for my laser cut pieces so I wouldn't have had to hot glue the piece together.
 * Modelling the train in CAD - this would have allowed me to properly create the diagonal shape of a BART train. Plus I want to improve my CAD skills so I can do more.
-* Using an ESP32. That would have allowed me to make API calls from my Arduino code directly and not have to run a seperate Python script.
+* Using an ESP32. That would have allowed me to make API calls from my Arduino code directly and not have to run a separate Python script.
 
 This project isn't going to waste. I'm using my electronics for future projects and keeping the structure as an ornament on my mantlepiece.
 
